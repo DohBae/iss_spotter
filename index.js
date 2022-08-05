@@ -1,6 +1,5 @@
 // will require and run main fetch function
 const request = require('request');
-
 const { nextISSITimesForMyLocation } = require('./iss');
 
 const printPassTimes = (passTimes) => {
